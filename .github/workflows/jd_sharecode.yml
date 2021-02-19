@@ -19,6 +19,7 @@ jobs:
           git clone https://github.com/lifeishard4me/Actions.git ~/Actions
       - name: 提交互助码
         run: |
+          cd  ~
           chmod +x jd_sharecodes.sh
           ./jd_sharecodes.sh
           git clone -b master https://gitlab.com/MrRight/Scripts.git ~/scripts
